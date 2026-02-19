@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+#navigations {
+align-items: center;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+background-color: rgb(51, 32, 32);
+width: 100%;
+left: 20px;
+right: 20px;
+}
+
+.section {
+    display: grid;
+    justify-content: center;
+    margin: 50px;
+}
+.home {
+    position: relative;
+    width: 90%;
+}
+
+.home-img {
+    width: 100%;
+    height: autos;
+    object-fit: cover;
+}
+.home-text {
+    padding: auto;
+    position: absolute;
+    top: 10%;
+    left: 45px;
+    display: flexbox;
+    color: white;
+    text-align: left;
+    width: 400px;
+
+
+}
+.S1 {
+    display: grid;
+    border-color: rgb(186, 179, 245);
+    border-radius: 5px;
+    border-width: 15px;
+    
+}
+
+.topservice {
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    gap: 15px;
+
+
+}
+
+.bottomservice {
+margin: 50px;
+padding: 50px;
+display: flex;
+gap: 15px;
+}

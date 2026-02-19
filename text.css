@@ -1,0 +1,12 @@
+#navigations {
+    color: yellow;
+    text-wrap-style: initial;
+}
+#navigations a {
+    color: yellow;
+}
+
+.home-text h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
