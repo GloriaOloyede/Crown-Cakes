@@ -1,65 +1,155 @@
-body {
-    margin: 0;
-    padding: 0;
-
+* {
+ margin: 0;
+ padding: 0;
+ 
+ 
 }
-#navigations {
-align-items: center;
-display: flex;
-justify-content: space-between;
-padding: 10px;
-background-color: rgb(51, 32, 32);
-width: 100%;
-left: 20px;
-right: 20px;
+
+
+.navigations {
+ padding: 5px 50px;
+ align-items: center;
+ display: flex;
+ justify-content: space-between;
+ background-color: rgb(54, 14, 14);
+
 }
 
 .section {
-    display: grid;
-    justify-content: center;
-    margin: 50px;
+ display: grid;
+ justify-content: center;
+ margin: 50px;
 }
+
 .home {
-    position: relative;
-    width: 90%;
+ position: relative;
+ width: 100%;
 }
 
-.home-img {
-    width: 100%;
-    height: autos;
-    object-fit: cover;
+.home img {
+ width: 100%;
+ display: block;
 }
+
 .home-text {
-    padding: auto;
-    position: absolute;
-    top: 10%;
-    left: 45px;
-    display: flexbox;
-    color: white;
-    text-align: left;
-    width: 400px;
+ padding: 60px;
+ position: absolute;
+ color: #FAF3E0;
+ top: 11%;
+ width: 30%;
+ justify-content: space-between;
+ 
+}
 
+.hometoptext {
 
 }
-.S1 {
-    display: grid;
-    border-color: rgb(186, 179, 245);
-    border-radius: 5px;
-    border-width: 15px;
+
+.homesubtext {
+    
+    margin-top: 30px;
+    line-height: 20px;
+}
+.homebtn {
+    color: white;
+ margin-top: 50px;
+ padding: 0px;
+ width: 100px;
+ height: 50px;
+ border-radius: 7px;
+ border: 5px solid black;
+ background-color: rgb(66, 13, 13);
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
     
 }
 
-.topservice {
-    margin: 50px;
-    padding: 50px;
-    display: flex;
-    gap: 15px;
+.aboutpic {
+    padding: 100px;
 
 }
 
+.abouttext h1 {
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.abouttext {
+    padding: 100px;
+    width: 35%;
+    color: #3E2723;
+   
+
+}
+.aboutbutton {
+    width: 100px;
+    height: 28px;
+    margin-top: 40px;
+}
+
+
+
+.services {
+    gap: 50px;
+}
+
+
+
+.topservice {
+    
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+
 .bottomservice {
-margin: 50px;
-padding: 50px;
+justify-content: center;
 display: flex;
-gap: 15px;
+gap: 50px;
+}
+
+
+.S1 {
+    padding: 2px;
+    margin: 10px;
+    display: grid;
+    border: 15px solid;
+    border-color: rgb(221, 218, 218);
+    gap: 30px;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.s1text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #e03411;
+    font-weight: bold;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.producttext {
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.productpic {
+    margin: 150px 45px;
+    border-radius: 5px;
+}
+
+.contact {
+    margin: 150px 150px;
+    line-height: 30px;
 }

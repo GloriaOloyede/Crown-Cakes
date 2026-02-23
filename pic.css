@@ -2,12 +2,24 @@ body {
     margin: 0;
     padding: 0;
 }
-
-.logo {
-    width: 120px;
-    height: auto;
+.img {
+    margin: 0;
+    padding: 0;
 }
 
+.logo {
+    width: 70px;
+
+}
+
+.homepic {
+    width: 1350px;
+    display: cover;
+}
+.aboutpic {
+    width: 500px;
+    height: 480px;
+}
 .spic {
     width: 400px;
     height: 350px;
@@ -16,5 +28,8 @@ body {
 
 }
 
-
+.productpic {
+    width: 1100px;
+    height: 750px;
+}
 
