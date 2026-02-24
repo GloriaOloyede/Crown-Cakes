@@ -7,12 +7,17 @@
 
 
 .navigations {
- padding: 5px 50px;
+ padding: 14px 100px;
  align-items: center;
  display: flex;
  justify-content: space-between;
  background-color: rgb(54, 14, 14);
+ color: #FFFDD0;
 
+}
+
+.navigations a {
+    color: #FFFDD0;
 }
 
 .section {
@@ -32,24 +37,21 @@
 }
 
 .home-text {
- padding: 60px;
+ padding: 92px;
  position: absolute;
- color: #FAF3E0;
+ color: #FFFDD0;
  top: 11%;
  width: 30%;
  justify-content: space-between;
  
 }
 
-.hometoptext {
 
-}
-
-.homesubtext {
-    
+.homesubtext { 
     margin-top: 30px;
     line-height: 20px;
 }
+
 .homebtn {
     color: white;
  margin-top: 50px;
@@ -65,22 +67,26 @@
     display: flex;
     justify-content: space-between;
     line-height: 35px;
+    margin-top: 70px;
+    gap: 75px;
     
 }
 
 .aboutpic {
-    padding: 100px;
-
+    margin-left: 100px;
+    
 }
 
 .abouttext h1 {
-    margin-bottom: 40px;
-    font-size: 50px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    
 }
 .abouttext {
-    padding: 100px;
-    width: 35%;
+     display: grid;
     color: #3E2723;
+    margin-right: 80px;
+    font-size: 22px;
    
 
 }
@@ -93,9 +99,14 @@
 
 
 .services {
-    gap: 50px;
+    gap: 60px;
 }
 
+.services h1 {
+    color: #3E2723;
+    font-size: 45px;
+    margin-top: 100px;
+}
 
 
 .topservice {
@@ -132,7 +143,7 @@ gap: 50px;
     font-weight: bold;
 }
 
-.product {
+.products {
     display: flex;
     justify-content: center;
     
@@ -140,16 +151,76 @@ gap: 50px;
 
 .producttext {
     text-align: center;
-    margin: 50px 0;
+    margin: 40px 20px;
 
 }
 
 .productpic {
-    margin: 150px 45px;
+    margin: 30px 110px;
     border-radius: 5px;
 }
 
+
+.product h1 {
+     color: #3E2723;
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+.headcontact h1 {
+    display: flex;
+    justify-content: center;
+    
+}
 .contact {
-    margin: 150px 150px;
-    line-height: 30px;
+    margin: 80px 250px;
+    line-height: 0px;
+    display: grid;
+    height: 0px;
+    gap: 0px;
+}
+.contactheader h4 {
+    line-height: 10px;
+}
+
+.contact h1 {
+     color: #3E2723;
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+.contactpic {
+margin: 0;
+padding: 0;
+    
+}
+
+.contactheader {
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+.topcontact {
+display: flex;
+ gap: 320px;
+
+
+}
+
+.bottomcontact {
+display: flex;
+gap: 200px;
+
+}
+
+.contacttext {
+line-height: 40px;
+
+}
+
+
+
+.contactbutton {
+    
 }
