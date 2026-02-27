@@ -63,6 +63,11 @@
  background-color: rgb(66, 13, 13);
 }
 
+@media (min-width: 1024px) {
+    .home-grid{
+         grid-template-columns: repeat (2,1fr)
+    }}
+
 .about {
     display: flex;
     justify-content: space-between;
@@ -96,7 +101,10 @@
     margin-top: 40px;
 }
 
-
+@media (min-width: 1024px) {
+    .about-grid{
+         grid-template-columns: repeat (2,1fr)
+    }}
 
 .services {
     gap: 60px;
@@ -203,7 +211,13 @@ line-height: 40px;
 font-size: 22px;
 }
 
+.contactpic1 {
+border-radius: 10px;
+}
 
+.contactpic2 {
+border-radius: 10px;
+}
 
 .contactbutton {
     color: white;
@@ -212,4 +226,7 @@ font-size: 22px;
  background-color: rgb(66, 13, 13);
 }
 
-
+@media (min-width: 1024px) {
+    .contact-grid{
+         grid-template-columns: repeat (2,1fr)
+    }}
